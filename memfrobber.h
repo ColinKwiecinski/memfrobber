@@ -2,7 +2,7 @@
 
 struct frobber;
 
-struct frobber* frobber_create(char *input);
+struct frobber *frobber_create(char *input);
 
 char *get_frob(struct frobber *f);
 
